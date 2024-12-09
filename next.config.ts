@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
+        hostname: "leitaoguerra.nbg1.your-objectstorage.com",
+      },
+      {
         hostname: "localhost",
       },
     ],
